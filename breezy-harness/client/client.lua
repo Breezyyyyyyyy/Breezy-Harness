@@ -10,7 +10,7 @@ end
 RegisterNetEvent("Breezy-harness:client:attachHarness", function(ItemData)
     if not IsPedInAnyVehicle(PlayerPedId(), false) then return QBCore.Functions.Notify(Lang:t("error.not_in_vehicle"), "error", 5000) end
     if not validateClass() then return QBCore.Functions.Notify(Lang:t("error.wrong_class"), "error", 5000) end
-    TriggerServerEvent('brazzers-harness:server:attachHarness', validateClass(), ItemData)
+    TriggerServerEvent('breezy-harness:server:attachHarness', validateClass(), ItemData)
 end)
 
 RegisterNetEvent('Breezy-harness:client:installHarness', function(plate, action)
