@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 
-name "Brazzers Harness"
-author "Brazzers Development | MannyOnBrazzers#6826"
+name "Breezy"
+author "Breezy Development | Breezy"
 version "1.1"
 
 lua54 'yes'
